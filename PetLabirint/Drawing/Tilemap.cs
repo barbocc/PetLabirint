@@ -8,5 +8,6 @@ namespace PetLabirint.Drawing
 {
     class Tilemap
     {
+        public int dev;
     }
 }
