@@ -43,8 +43,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Drawing\AnimatedSprite.cs" />
-    <Compile Include="Drawing\Layer.cs" />
-    <Compile Include="Drawing\LevelGenerator.cs" />
+    <Compile Include="Layers\Layer.cs" />
+    <Compile Include="Layers\LevelGenerator.cs" />
     <Compile Include="Drawing\Tilemap.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Players\Player.cs" />
@@ -112,7 +112,7 @@
     <None Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Layers\" />
+    <Folder Include="Sounds\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
